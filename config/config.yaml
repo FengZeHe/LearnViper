@@ -1,0 +1,15 @@
+mysql:
+  host: "127.0.0.1"
+  port: 3306
+  db-name: "bluebell"
+  user: "root"
+  password: "12345678"
+  max-idle-conns: 50
+  max-open-conns: 200
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  db: 0
+  password: ""
+  pool_size: 100
